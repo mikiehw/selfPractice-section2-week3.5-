@@ -1,7 +1,8 @@
 package com.myexercise.section2week35;
 
-import java.util.List;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
 public class MenuServiceStub implements MenuService{
     public List<String> getMenuList() {
         return List.of(
